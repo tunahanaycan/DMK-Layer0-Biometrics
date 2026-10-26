@@ -1,0 +1,739 @@
+{
+  "template": {
+    "dwell": [
+      {
+        "med": 0.080848,
+        "smad": 0.020647
+      },
+      {
+        "med": 0.093056,
+        "smad": 0.009041
+      },
+      {
+        "med": 0.106694,
+        "smad": 0.008
+      },
+      {
+        "med": 0.096201,
+        "smad": 0.008
+      },
+      {
+        "med": 0.079125,
+        "smad": 0.013035
+      },
+      {
+        "med": 0.085887,
+        "smad": 0.016068
+      }
+    ],
+    "flight": [
+      {
+        "med": 0.150648,
+        "smad": 0.025647
+      },
+      {
+        "med": 0.139979,
+        "smad": 0.016405
+      },
+      {
+        "med": 0.168033,
+        "smad": 0.012
+      },
+      {
+        "med": 0.159084,
+        "smad": 0.034171
+      },
+      {
+        "med": 0.152561,
+        "smad": 0.034843
+      }
+    ]
+  },
+  "summary": {
+    "split_threshold": {
+      "frr_percent": 20.0,
+      "far_percent": 60.0
+    },
+    "legacy_threshold": {
+      "frr_percent": 30.0,
+      "far_percent": 40.0
+    }
+  },
+  "genuine_evals": [
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.952,
+      "dwell_max": 2.295,
+      "flight_avg": 0.388,
+      "flight_max": 1.081,
+      "combined_avg": 0.696,
+      "combined_max": 2.295
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": true,
+      "flight_ok": false,
+      "dwell_avg": 1.426,
+      "dwell_max": 2.456,
+      "flight_avg": 1.525,
+      "flight_max": 4.644,
+      "combined_avg": 1.471,
+      "combined_max": 4.644
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": false,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.02,
+      "dwell_max": 4.226,
+      "flight_avg": 0.9,
+      "flight_max": 2.261,
+      "combined_avg": 0.966,
+      "combined_max": 4.226
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.922,
+      "dwell_max": 1.468,
+      "flight_avg": 0.632,
+      "flight_max": 2.348,
+      "combined_avg": 0.79,
+      "combined_max": 2.348
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": false,
+      "flight_ok": false,
+      "dwell_avg": 1.732,
+      "dwell_max": 5.901,
+      "flight_avg": 1.566,
+      "flight_max": 5.673,
+      "combined_avg": 1.657,
+      "combined_max": 5.901
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.323,
+      "dwell_max": 2.438,
+      "flight_avg": 0.58,
+      "flight_max": 1.244,
+      "combined_avg": 0.985,
+      "combined_max": 2.438
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.82,
+      "dwell_max": 2.343,
+      "flight_avg": 1.491,
+      "flight_max": 3.25,
+      "combined_avg": 1.125,
+      "combined_max": 3.25
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.912,
+      "dwell_max": 1.336,
+      "flight_avg": 1.15,
+      "flight_max": 2.5,
+      "combined_avg": 1.02,
+      "combined_max": 2.5
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.784,
+      "dwell_max": 1.454,
+      "flight_avg": 0.692,
+      "flight_max": 1.781,
+      "combined_avg": 0.742,
+      "combined_max": 1.781
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.824,
+      "dwell_max": 3.586,
+      "flight_avg": 0.702,
+      "flight_max": 1.033,
+      "combined_avg": 1.314,
+      "combined_max": 3.586
+    }
+  ],
+  "impostor_evals": [
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.675,
+      "dwell_max": 2.138,
+      "flight_avg": 0.849,
+      "flight_max": 1.191,
+      "combined_avg": 0.754,
+      "combined_max": 2.138
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": false,
+      "flight_ok": true,
+      "dwell_avg": 1.725,
+      "dwell_max": 5.093,
+      "flight_avg": 0.823,
+      "flight_max": 1.173,
+      "combined_avg": 1.315,
+      "combined_max": 5.093
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": false,
+      "flight_ok": false,
+      "dwell_avg": 1.817,
+      "dwell_max": 4.972,
+      "flight_avg": 1.553,
+      "flight_max": 4.664,
+      "combined_avg": 1.697,
+      "combined_max": 4.972
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": false,
+      "flight_ok": false,
+      "dwell_avg": 3.311,
+      "dwell_max": 9.483,
+      "flight_avg": 6.652,
+      "flight_max": 14.887,
+      "combined_avg": 4.83,
+      "combined_max": 14.887
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": false,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.933,
+      "dwell_max": 2.336,
+      "flight_avg": 1.71,
+      "flight_max": 4.002,
+      "combined_avg": 1.286,
+      "combined_max": 4.002
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": false,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.54,
+      "dwell_max": 4.477,
+      "flight_avg": 1.977,
+      "flight_max": 4.003,
+      "combined_avg": 1.738,
+      "combined_max": 4.477
+    },
+    {
+      "accepted": false,
+      "accepted_legacy": false,
+      "dwell_ok": true,
+      "flight_ok": false,
+      "dwell_avg": 0.9,
+      "dwell_max": 2.244,
+      "flight_avg": 5.259,
+      "flight_max": 15.712,
+      "combined_avg": 2.881,
+      "combined_max": 15.712
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 0.733,
+      "dwell_max": 1.304,
+      "flight_avg": 0.513,
+      "flight_max": 1.571,
+      "combined_avg": 0.633,
+      "combined_max": 1.571
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.55,
+      "dwell_max": 2.514,
+      "flight_avg": 1.221,
+      "flight_max": 1.975,
+      "combined_avg": 1.4,
+      "combined_max": 2.514
+    },
+    {
+      "accepted": true,
+      "accepted_legacy": true,
+      "dwell_ok": true,
+      "flight_ok": true,
+      "dwell_avg": 1.105,
+      "dwell_max": 3.435,
+      "flight_avg": 1.189,
+      "flight_max": 2.129,
+      "combined_avg": 1.143,
+      "combined_max": 3.435
+    }
+  ],
+  "raw_enroll": [
+    {
+      "dwells": [
+        0.080848,
+        0.103994,
+        0.120983,
+        0.095865,
+        0.079125,
+        0.096725
+      ],
+      "flights": [
+        0.135992,
+        0.168722,
+        0.206498,
+        0.170252,
+        0.152561
+      ]
+    },
+    {
+      "dwells": [
+        0.086158,
+        0.096001,
+        0.102998,
+        0.096028,
+        0.057937,
+        0.085887
+      ],
+      "flights": [
+        0.167947,
+        0.128914,
+        0.161902,
+        0.159084,
+        0.112131
+      ]
+    },
+    {
+      "dwells": [
+        0.066922,
+        0.093056,
+        0.106694,
+        0.096201,
+        0.039901,
+        0.064974
+      ],
+      "flights": [
+        0.131984,
+        0.139979,
+        0.167792,
+        0.262464,
+        0.216048
+      ]
+    },
+    {
+      "dwells": [
+        0.048909,
+        0.086958,
+        0.127895,
+        0.105096,
+        0.087917,
+        0.087059
+      ],
+      "flights": [
+        0.150648,
+        0.144923,
+        0.168033,
+        0.120022,
+        0.12906
+      ]
+    },
+    {
+      "dwells": [
+        0.12095,
+        0.081127,
+        0.103883,
+        0.13411,
+        0.079867,
+        0.072167
+      ],
+      "flights": [
+        0.215989,
+        0.128012,
+        0.179019,
+        0.136036,
+        0.153032
+      ]
+    }
+  ],
+  "raw_genuine": [
+    {
+      "dwells": [
+        0.086992,
+        0.087072,
+        0.095964,
+        0.077838,
+        0.075031,
+        0.073018
+      ],
+      "flights": [
+        0.146431,
+        0.136511,
+        0.155059,
+        0.166166,
+        0.142961
+      ]
+    },
+    {
+      "dwells": [
+        0.103013,
+        0.111951,
+        0.087048,
+        0.103736,
+        0.061929,
+        0.07504
+      ],
+      "flights": [
+        0.144951,
+        0.168634,
+        0.223765,
+        0.170951,
+        0.175637
+      ]
+    },
+    {
+      "dwells": [
+        0.079417,
+        0.078921,
+        0.072882,
+        0.09611,
+        0.078988,
+        0.082014
+      ],
+      "flights": [
+        0.160551,
+        0.177063,
+        0.182068,
+        0.14697,
+        0.141035
+      ]
+    },
+    {
+      "dwells": [
+        0.104964,
+        0.079783,
+        0.096011,
+        0.095984,
+        0.063865,
+        0.080011
+      ],
+      "flights": [
+        0.14439,
+        0.178497,
+        0.16649,
+        0.152055,
+        0.144401
+      ]
+    },
+    {
+      "dwells": [
+        0.085628,
+        0.072828,
+        0.153906,
+        0.08298,
+        0.075921,
+        0.087903
+      ],
+      "flights": [
+        0.159813,
+        0.151095,
+        0.23611,
+        0.133047,
+        0.165126
+      ]
+    },
+    {
+      "dwells": [
+        0.095572,
+        0.071014,
+        0.1045,
+        0.111928,
+        0.061672,
+        0.066507
+      ],
+      "flights": [
+        0.136037,
+        0.145374,
+        0.182957,
+        0.162635,
+        0.175389
+      ]
+    },
+    {
+      "dwells": [
+        0.077954,
+        0.096955,
+        0.087947,
+        0.094985,
+        0.058923,
+        0.080975
+      ],
+      "flights": [
+        0.167981,
+        0.144105,
+        0.170001,
+        0.270134,
+        0.261051
+      ]
+    },
+    {
+      "dwells": [
+        0.103989,
+        0.096986,
+        0.096006,
+        0.106017,
+        0.095049,
+        0.087968
+      ],
+      "flights": [
+        0.144988,
+        0.177961,
+        0.198038,
+        0.149069,
+        0.137981
+      ]
+    },
+    {
+      "dwells": [
+        0.095941,
+        0.07991,
+        0.104926,
+        0.087971,
+        0.095006,
+        0.086745
+      ],
+      "flights": [
+        0.166122,
+        0.169201,
+        0.166951,
+        0.169025,
+        0.176682
+      ]
+    },
+    {
+      "dwells": [
+        0.079327,
+        0.071849,
+        0.078005,
+        0.077517,
+        0.076002,
+        0.047934
+      ],
+      "flights": [
+        0.128625,
+        0.152921,
+        0.155639,
+        0.149886,
+        0.133101
+      ]
+    }
+  ],
+  "raw_impostors": {
+    "impostor_1": [
+      {
+        "dwells": [
+          0.062881,
+          0.087915,
+          0.103942,
+          0.096018,
+          0.107,
+          0.084176
+        ],
+        "flights": [
+          0.120093,
+          0.121092,
+          0.169976,
+          0.13468,
+          0.116841
+        ]
+      },
+      {
+        "dwells": [
+          0.129832,
+          0.087612,
+          0.065951,
+          0.104021,
+          0.080005,
+          0.066019
+        ],
+        "flights": [
+          0.170053,
+          0.157524,
+          0.160028,
+          0.119002,
+          0.136931
+        ]
+      },
+      {
+        "dwells": [
+          0.079991,
+          0.13801,
+          0.087968,
+          0.113053,
+          0.078982,
+          0.062945
+        ],
+        "flights": [
+          0.128027,
+          0.166026,
+          0.224003,
+          0.143934,
+          0.146059
+        ]
+      },
+      {
+        "dwells": [
+          0.086957,
+          0.031858,
+          0.03083,
+          0.103988,
+          0.095967,
+          0.068937
+        ],
+        "flights": [
+          0.366035,
+          0.384198,
+          0.267176,
+          0.150057,
+          0.20302
+        ]
+      },
+      {
+        "dwells": [
+          0.070895,
+          0.082906,
+          0.088007,
+          0.088115,
+          0.078857,
+          0.09592
+        ],
+        "flights": [
+          0.17522,
+          0.16693,
+          0.216059,
+          0.178027,
+          0.201097
+        ]
+      },
+      {
+        "dwells": [
+          0.08695,
+          0.086829,
+          0.070874,
+          0.112005,
+          0.094771,
+          0.095527
+        ],
+        "flights": [
+          0.208595,
+          0.170747,
+          0.21607,
+          0.192384,
+          0.179497
+        ]
+      },
+      {
+        "dwells": [
+          0.070867,
+          0.072764,
+          0.112894,
+          0.084905,
+          0.073871,
+          0.087162
+        ],
+        "flights": [
+          0.281679,
+          0.397733,
+          0.226166,
+          0.169163,
+          0.140981
+        ]
+      },
+      {
+        "dwells": [
+          0.085896,
+          0.091694,
+          0.096262,
+          0.089941,
+          0.088643,
+          0.104976
+        ],
+        "flights": [
+          0.159004,
+          0.16575,
+          0.175506,
+          0.157945,
+          0.153063
+        ]
+      },
+      {
+        "dwells": [
+          0.080691,
+          0.078995,
+          0.112929,
+          0.079021,
+          0.111891,
+          0.048972
+        ],
+        "flights": [
+          0.177035,
+          0.160417,
+          0.144334,
+          0.215501,
+          0.159668
+        ]
+      },
+      {
+        "dwells": [
+          0.07995,
+          0.062004,
+          0.104983,
+          0.104006,
+          0.095829,
+          0.074983
+        ],
+        "flights": [
+          0.17008,
+          0.174903,
+          0.186095,
+          0.190085,
+          0.175045
+        ]
+      }
+    ]
+  }
+}
